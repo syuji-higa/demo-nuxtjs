@@ -1,0 +1,36 @@
+{
+  "media screen tablet": {
+		"prefix": "tb",
+		"body": [
+			"@include media-screen-tb {",
+			"  $1",
+			"}"
+		],
+		"description": "create media screen tablet"
+	},
+  "media screen pc": {
+		"prefix": "pc",
+		"body": [
+			"@include media-screen-pc {",
+			"  $1",
+			"}"
+		],
+		"description": "create media screen pc"
+  },
+  "media screen pc learge": {
+		"prefix": "pcl",
+		"body": [
+			"@include media-screen-pcl {",
+			"  $1",
+			"}"
+		],
+		"description": "create media screen pc learge"
+  },
+  "font size": {
+		"prefix": "fz",
+		"body": [
+      "@include font-size($1);"
+    ],
+		"description": "font size"
+	}
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Emoji 1`] = `
+<button
+  style="border: 1px solid #eee; border-radius: 3; background-color: rgb(255, 255, 255); cursor: pointer; font-size: 15; padding: 3px 10px;"
+>
+  😀 😎 👍 💯
+</button>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<button
+  style="border: 1px solid #eee; border-radius: 3; background-color: rgb(255, 255, 255); cursor: pointer; font-size: 15; padding: 3px 10px;"
+>
+  Hello Button
+</button>
+`;

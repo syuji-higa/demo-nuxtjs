@@ -1,0 +1,33 @@
+<style>
+  body, html {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    position: relative;
+  }
+  .ico {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    vertical-align: text-bottom;
+    border: 1px solid;
+    border-color: hsl(0, 0%, 60%) transparent #999 #999;
+    border-radius: 50%;
+    animation: spinner-border 1s linear infinite;
+  }
+  @keyframes spinner-border {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+<div class="content">
+  <div class="ico"></div>
+</div>

@@ -1,0 +1,100 @@
+::selection {
+  background-color: $selection-background-color;
+  color: $selection-color;
+}
+
+body {
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: $font-smoothing;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: $text-rendering;
+  font-family: $base-font-family;
+  color: $base-font-color;
+  background-color: $base-background-color;
+  line-height: $base-line-height;
+  @include font-size($base-font-size-sp);
+
+  @include media-screen-pc {
+    @include font-size($base-font-size-pc);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+dl {
+  margin: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: $main-color;
+}
+.is-desktop a {
+  transition: color 0.1s linear;
+}
+.is-desktop a:hover {
+  color: $main-dark-color;
+}
+
+figure {
+  margin: 0;
+}
+
+input {
+  appearance: none;
+  font-family: $base-font-family;
+}
+
+select {
+  font-family: $base-font-family;
+}
+
+textarea {
+  font-family: $base-font-family;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.is-desktop button:hover {
+  cursor: pointer;
+}
+.is-desktop button[disabled]:hover {
+  cursor: not-allowed;
+}
+
+small {
+  font-size: 100%;
+}
+
+::placeholder {
+  color: $base-placeholder-color;
+}

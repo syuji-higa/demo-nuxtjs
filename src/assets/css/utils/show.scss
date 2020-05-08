@@ -1,0 +1,34 @@
+.u-show-sp {
+  display: block;
+  @include media-screen-tb {
+    display: none;
+  }
+}
+.u-show-sp-tb {
+  display: block;
+  @include media-screen-pc {
+    display: none;
+  }
+}
+.u-show-tb {
+  display: none;
+  @include media-screen-tb {
+    display: block;
+  }
+  @include media-screen-pc {
+    display: none;
+  }
+}
+.u-show-tb-pc {
+  display: none;
+  @include media-screen-tb {
+    display: block;
+  }
+}
+.u-show-pc {
+  display: none;
+  @include media-screen-pc {
+    display: block;
+  }
+}
+
